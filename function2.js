@@ -6,7 +6,7 @@ let example = [1, 2, 3, 4, 'five', 6, 7];
 let example2 = [1, 2];
 
 const logThird= function (arr) {
-
+    console.log(arr[2]);
 };
 
 logThird(example);

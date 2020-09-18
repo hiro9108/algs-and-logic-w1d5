@@ -4,7 +4,7 @@
 let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
 const addHooray = function (arr) {
-
+    arr.forEach(el => console.log(`${el}HOORAY`));
 };
 
 addHooray(food);
